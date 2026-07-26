@@ -26,7 +26,7 @@ page.url.keyword:https\:\/\/www.paypal.com\/uploads\/*
 - Looks for everything after that url
 
 ```
-domain:paypal.com AND NOT page.domain:newegg.com
+domain:newegg.com AND NOT page.domain:newegg.com
 ```
 
 
