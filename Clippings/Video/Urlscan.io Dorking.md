@@ -64,7 +64,7 @@ newegg.* -newegg.ca
 - with the `-` in query the result will exculde the provided domain
 
 ```
-page.domain:*.zomato.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
+page.domain:*.newegg.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
 ```
 
 ---
