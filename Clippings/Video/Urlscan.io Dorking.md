@@ -92,7 +92,10 @@ gov.* page.title:"Control Panal" OR page.title:"Administrator"
 mil.* page.title:"Control Panal" OR page.title:"Administrator"
 gov.* page.title:"dashboard"
 mil.* page.title:"dashboard"
+page.title:"index of /" AND page.domain:*.gov
 page.title:"index of /" AND page.domain:*.mil
+page.title:"index of /" AND page.domain:*.edu
+page.url:"/api/
 ```
 
 ---
