@@ -21,7 +21,7 @@ page.ip:* AND date:>now-7d
 
 ```
 page.url.keyword:https\:\/\/www.newegg.com\/*
-page.url.keyword:https\:\/\/www.paypal.com\/uploads\/*
+page.url.keyword:https\:\/\/www.newegg.com\/uploads\/*
 ```
 - Looks for everything after that url
 
@@ -34,6 +34,11 @@ domain:newegg.com AND NOT page.domain:newegg.com
 page.domain:(newegg.com~ AND NOT newegg.com) 
 ```
 - Looks for domain that are similar to the domain provided but not the same
+
+```
+page.domain:(/neweg)
+```
+
 
 ---
 ## Full Page Content
