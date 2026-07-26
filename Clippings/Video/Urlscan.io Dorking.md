@@ -88,6 +88,8 @@ page.domain:newegg.com AND page.status:500
 page.domain:newegg.com AND page.status:403
 page.domain:newegg.com AND page.status:301
 page.title:"Control Panal" OR page.title:"Administrator" page.title:"Sign In"
+gov.* page.title:"Control Panal" OR page.title:"Administrator"
+mil.* page.title:"Control Panal" OR page.title:"Administrator"
 ```
 
 ---
