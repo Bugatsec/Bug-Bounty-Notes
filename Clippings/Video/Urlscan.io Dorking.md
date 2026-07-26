@@ -61,7 +61,11 @@ hash:{sha256}
 ```
 newegg.* -newegg.ca
 ```
-- with the `-` the result will exculde the provided 
+- with the `-` in query the result will exculde the provided domain
+
+```
+page.domain:*.zomato.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
+```
 
 ---
 ## Full Page Content
