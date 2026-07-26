@@ -63,6 +63,6 @@ IDOR
 
 ## Email Verification confusion
 - a site asks for email verification you give attacker@test.com recive the verification email link
-- going to settings page is allowed you go and change email to victim@test.com now this mail will recive the email verificationemail too 
-- now take the email from the very first time and confirm email with that link 
-- check if yr acc email is changed to tyhe first one or to the 2nmd
+- going to settings page is allowed you go and change email to victim@test.com now this mail will recive the email verification email too 
+- now go to attacker@test.com inbox click the verification link verify acc with that.
+- check if yr acc email is changed to victim@test.com first one or to the 2nmd
