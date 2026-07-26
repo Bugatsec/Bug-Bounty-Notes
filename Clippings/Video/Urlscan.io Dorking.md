@@ -84,7 +84,10 @@ page.title:"index of /" AND page.url:uploads
 page.title:"index of /" AND page.url:private
 page.domain:newegg.com AND page.mimeType:"application/json"
 page.domain:newegg.com AND page.mimeType:"application/pdf"
+page.domain:newegg.com AND page.status:500
 page.domain:newegg.com AND page.status:403
+page.domain:newegg.com AND page.status:301
+pa
 ```
 
 ---
