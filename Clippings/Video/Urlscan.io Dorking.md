@@ -56,7 +56,7 @@ page.url:"wp-content/uploads/" OR filename:"wp-content/uploads/"
 ```
 hash:{sha256}
 ```
-- Looks for everything that uses the hash provided(e.g)
+- Looks for everything that uses the hash provided(e.g: 1. create a js file name hash then pass it here it will list every site using that js, .)
 
 ---
 ## Full Page Content
