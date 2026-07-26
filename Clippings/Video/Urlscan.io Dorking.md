@@ -142,6 +142,7 @@ page.mimeType:"application/zip" AND gov.*
 page.title:"IIS Windows Server"
 page.url:"https://sites.google.com/a/*"
 page.url:"https://sites.google.com/a/newegg.com"
+page.domain:(target.com~ AND NOT target.com) page.domain:(/.target./ AND NOT target.com) page.domain:(/.stage./) page.domain:(/.dev./) page.domain:(/.test./) page.domain:(/.qa./) page.domain:(/.internal./)
 ```
 
 ---
