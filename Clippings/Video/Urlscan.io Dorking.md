@@ -73,6 +73,8 @@ page.domain:*.newegg.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOce
 page.url:"/admin"
 page.url:"key="
 page.url:"token="
+page.url:"=="
+page.url:"eyJ"
 ```
 
 ---
