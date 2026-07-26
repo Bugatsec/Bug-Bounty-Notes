@@ -37,7 +37,7 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 **IDOR**
 -- 
 
-## **No Email notification sent after password change** - p4/info
+## **No Email notification sent after password change**
 
 --
 
@@ -46,3 +46,5 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 --
 
 ## Improper cache control after logout
+--
+- 
