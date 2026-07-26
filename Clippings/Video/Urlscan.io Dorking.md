@@ -110,6 +110,8 @@ page.url:"s3.amazonaws.com" OR page.url:"blob.core.windows.net" OR page.url:"sto
 filename:phpinfo.php page.domain:gov
 page.url:phpinfo.php page.domain:gov
 page.url:headdump AND page.url:actuator
+nasa.* page.url:php
+nasa.* page.url:asp
 ```
 
 ---
