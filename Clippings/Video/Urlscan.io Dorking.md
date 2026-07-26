@@ -95,7 +95,9 @@ mil.* page.title:"dashboard"
 page.title:"index of /" AND page.domain:*.gov
 page.title:"index of /" AND page.domain:*.mil
 page.title:"index of /" AND page.domain:*.edu
-page.url:"/api/
+page.url:"/api/"
+page.url:"v1/api/" OR "v2/api/" OR "v3/api/" OR "v4/api/"
+page.url:"/api/v1/" OR "/api/v1/"
 ```
 
 ---
