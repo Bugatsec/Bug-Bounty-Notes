@@ -25,23 +25,23 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 --
 - Cloudflare Origin Ip finding
 
-**NO RATE LIMIT**
+NO RATE LIMIT
 --
 - On forgot password email sending
 - 100+ email by sending multiple request.
 
-**INSECURE ACCOUNT DELETION**
+INSECURE ACCOUNT DELETION
 --
 - No password confirmation while deleting account.
 
-**IDOR**
+IDOR
 -- 
 
-## **No Email notification sent after password change**
+## No Email notification sent after password change
 
 --
 
-## **2FA Activation does not invalidate current session** 
+## 2FA Activation does not invalidate current session
 
 --
 
@@ -60,3 +60,6 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 --
 - enable 2fa -> logout
 - login with oauth if 2fa is missed it might be a vuln 
+
+## Email Verification confusion
+- a site asks for email veri
