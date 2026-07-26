@@ -101,7 +101,8 @@ page.url:"/api/v1/" OR "/api/v2/" OR "/api/v3/" OR "/api/v4/"
 page.url:"/graphql/"
 page.url:"/graphql/" page.domain:newegg.com
 page.domain:newegg.com AND page.ip:*
-page.title:"Swagger UI" OR page.url:"swagger" OR page.url:"swagger-ui" page.domain:newegg
+page.title:"Swagger UI" OR page.url:"swagger" OR page.url:"swagger-ui" AND page.domain:newegg.com
+page.url:
 ```
 
 ---
