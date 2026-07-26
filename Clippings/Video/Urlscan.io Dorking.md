@@ -119,6 +119,9 @@ domain:vulnweb.com page.url:r=
 domain:vulnweb.com page.url:auth
 domain:vulnweb.com page.url:oauth
 domain:vulnweb.com page.url:/etc/passwd
+domain:vulnweb.com page.url:etc
+page.url:\/etc\/passwd
+page.url:\/etc\/
 ```
 
 ---
