@@ -121,7 +121,10 @@ domain:vulnweb.com page.url:oauth
 domain:vulnweb.com page.url:/etc/passwd
 domain:vulnweb.com page.url:etc
 page.url:\/etc\/passwd
-page.url:\/etc\/
+page.url:\/etc\/shadow
+page.url:shell
+page.url:callback
+page.domain:newegg.com page.url;
 ```
 
 ---
