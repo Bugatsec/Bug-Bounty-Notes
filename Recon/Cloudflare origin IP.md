@@ -92,7 +92,14 @@ c
 
 **Method 9:**
 --
-**Urlscan.io**
+urls
 https://urlscan.io/api/v1/search/?q=domain: -{DOMAIN}-&size=10000
+
+curl -s "https://urlscan.io/api/v1/search/?q=hilton.com&size=10000" | jq -r '.results [ ]?.page?.ip // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | tee USip.txt
+
+**Method 10:**
+--
+**Urlscan.io**
+
 
 curl -s "https://urlscan.io/api/v1/search/?q=hilton.com&size=10000" | jq -r '.results [ ]?.page?.ip // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | tee USip.txt
