@@ -66,6 +66,7 @@ newegg.* -newegg.ca
 ```
 page.domain:*.newegg.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
 ```
+- Looks for 
 
 ---
 ## Full Page Content
