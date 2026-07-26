@@ -75,6 +75,9 @@ page.url:"key="
 page.url:"token="
 page.url:"=="
 page.url:"eyJ"
+page.url:"/password-reset/"
+page.url:"@"
+page.url:("reset-password" ORE"
 ```
 
 ---
