@@ -53,6 +53,11 @@ page.url:"wp-content/uploads/" OR filename:"wp-content/uploads/"
 ```
 - Looks for site that include the path provided
 
+```
+hash:{sha256}
+```
+- Looks for everything that uses the hash provided(e.g)
+
 ---
 ## Full Page Content
 
