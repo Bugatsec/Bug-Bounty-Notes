@@ -135,6 +135,10 @@ page.mimeType:"application/pdf" AND page.url:private
 page.mimeType:"application/pdf" AND page.url:confidential
 page.mimeType:"application/pdf" AND page.url:internal
 page.mimeType:"application/pdf" AND page.url:uploads
+page.mimeType:"application/zip" AND page.url:uploads
+page.mimeType:"application/zip" AND page.url:uploads AND newegg.*
+page.mimeType:"application/zip" AND page.url:uploads AND gov.*
+page.mimeType:"application/zip" AND gov.*
 ```
 
 ---
