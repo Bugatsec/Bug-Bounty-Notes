@@ -58,4 +58,5 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 
 ## 2fa bypass
 --
-- enable 2fa 
+- enable 2fa -> logout
+- login with oauth if 2fa is missed it might be a vuln 
