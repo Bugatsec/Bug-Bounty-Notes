@@ -43,6 +43,9 @@ page.domain:(/newegg-.*/ AND NOT newegg.com)
 ```
 - Looks for every domain that starts with given expression of domain but does not include the domain given
 
+```
+page.asn:AS24940 OR page.asnname:hetzner
+```
 
 ---
 ## Full Page Content
