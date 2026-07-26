@@ -80,6 +80,9 @@ page.url:"@"
 page.url:("reset-password" OR "resetpassword" OR "forget-password" OR "forgetpassword" OR "password-reset" OR "passwordreset")
 page.title:"index of /"
 page.title:"index of /" AND page.url:backup
+page.title:"index of /" AND page.url:uploads
+page.title:"index of /" AND page.url:private
+page
 ```
 
 ---
