@@ -41,4 +41,4 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 
 --
 
-## **2FA Activation does not invalidate current session** - p4/info
+## **2FA Activation does not invalidate current session** 
