@@ -62,7 +62,7 @@ IDOR
 - login with oauth if 2fa is missed it might be a vuln 
 
 ## Email Verification confusion
-- a site asks for email verification you give a@test email recive the verification email
-- going to settings page is allowed you go and change email now that other email will recive the email verificationemail too 
+- a site asks for email verification you give attacker@test.com recive the verification email link
+- going to settings page is allowed you go and change email to victim@test.com now this mail will recive the email verificationemail too 
 - now take the email from the very first time and confirm email with that link 
 - check if yr acc email is changed to tyhe first one or to the 2nmd
