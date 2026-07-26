@@ -28,6 +28,7 @@ page.url.keyword:https\:\/\/www.paypal.com\/uploads\/*
 ```
 domain:newegg.com AND NOT page.domain:newegg.com
 ```
+- Looks for everything that loaded/request newegg.com but not owned by newegg
 
 
 
