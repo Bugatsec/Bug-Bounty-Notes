@@ -65,4 +65,4 @@ IDOR
 - a site asks for email verification you give attacker@test.com recive the verification email link
 - going to settings page is allowed you go and change email to victim@test.com now this mail will recive the email verification email too 
 - now go to attacker@test.com inbox click the verification link verify acc with that.
-- check if yr acc email is changed to victim@test.com first one or to the 2nmd
+- check if yr acc email is changed to victim@test.com 
