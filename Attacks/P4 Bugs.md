@@ -61,7 +61,7 @@ IDOR
 - enable 2fa -> logout
 - login with oauth if 2fa is missed it might be a vuln 
 
-## Email Verification confusion
+## Email verification confusion
 - a site asks for email verification you give attacker@test.com recive the verification email link
 - going to settings page is allowed you go and change email to victim@test.com now this mail will recive the email verification email too 
 - now go to attacker@test.com inbox click the verification link verify acc with that.
@@ -69,4 +69,6 @@ IDOR
 
 ## Password reset confusion
 - log in to a site with attacker@test.com email initiat a password reset. get link in yr inbox.
-- change email to 
+- change email to attacker2@test.com
+- go to attacker@test.com inbox 
+- use the password reset link
