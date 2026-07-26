@@ -21,6 +21,7 @@ page.ip:* AND date:>now-7d
 
 ```
 page.url.keyword:https\:\/\/www.paypal.com\/*
+page.url.keyword:https\:\/\/www.paypal.com\/uploads*
 ```
 - Looks for everything after that url
 
