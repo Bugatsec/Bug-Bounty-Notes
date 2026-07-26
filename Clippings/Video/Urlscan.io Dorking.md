@@ -68,7 +68,12 @@ page.domain:*.newegg.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOce
 ```
 - Looks for assest's hosted under a asn (e.g: can exclude cloudflare to find out site before cloudflares)
 
-## Some Advanced Dor
+## Some Advanced Dork by Lostsec 
+```
+page.url:"/admin"
+page.url:"key="
+page.url:"token="
+```
 
 ---
 ## Full Page Content
