@@ -51,3 +51,6 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 - click the back btn if you see the sensative data its an issue (p4 bugcrowd vrt)
 
 ## Unverified acc can enable 2fa before email verification
+--
+
+## Email/Password change without any auth/verification
