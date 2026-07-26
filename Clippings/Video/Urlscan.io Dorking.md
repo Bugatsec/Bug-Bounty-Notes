@@ -77,7 +77,7 @@ page.url:"=="
 page.url:"eyJ"
 page.url:"/password-reset/"
 page.url:"@"
-page.url:("reset-password" ORE"
+page.url:("reset-password" OR "resetpassword" OR "forget-password" OR "forgetpassword" OR "passwordreset"
 ```
 
 ---
