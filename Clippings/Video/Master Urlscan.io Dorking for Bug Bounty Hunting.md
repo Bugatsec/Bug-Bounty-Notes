@@ -17,6 +17,7 @@ Site: YouTube
 ```
 page.ip:* AND date:>now-7d
 ```
+- Look for every hit in last given number of days
 
 
 
