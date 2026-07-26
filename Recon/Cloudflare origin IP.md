@@ -100,4 +100,4 @@ curl -s "https://urlscan.io/api/v1/search/?q=hilton.com&size=10000" | jq -r '.re
 **Method 10:**
 --
 [Urlscan.io Dorking](../Clippings/Video/Urlscan.io%20Dorking.md)
-page.domain:*.hilton.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
+page.domain:*.hilton.com AND NOT (page.asnname:"Cloudflare" OR page.asnname:"DigitalOcean")
