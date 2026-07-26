@@ -16,6 +16,7 @@ Site: YouTube
 ## Highlights
 ```
 page.ip:* AND date:>now-7d
+page.ip:49.12.22.106 AND date
 ```
 - Look for every hit in last given number of days
 
