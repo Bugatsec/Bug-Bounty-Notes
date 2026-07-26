@@ -115,7 +115,10 @@ nasa.* page.url:asp
 domain:vulnweb.com page.url:search=
 domain:vulnweb.com page.url:q=
 domain:vulnweb.com page.url:id=
-domain:vulnweb.com page.url:s=
+domain:vulnweb.com page.url:r=
+domain:vulnweb.com page.url:auth
+domain:vulnweb.com page.url:oauth
+domain:vulnweb.com page.url:/etc/passwd
 ```
 
 ---
