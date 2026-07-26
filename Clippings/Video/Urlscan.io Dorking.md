@@ -58,6 +58,11 @@ hash:{sha256}
 ```
 - Looks for everything that uses the hash provided(e.g: 1. create a js file name hash then pass it here it will list every site using that js, 2. find a favicon hash pass it here and it will look for every site using that favicon, 3. if a perticular file version has a cve copy the file hash and look here you will get that file used by many sites)
 
+```
+newegg.* -newegg.ca
+```
+- with the `-` the result will exculde the provided 
+
 ---
 ## Full Page Content
 
