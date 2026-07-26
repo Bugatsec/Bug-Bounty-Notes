@@ -132,6 +132,9 @@ page.domain:newegg.com page.url:prod-
 page.domain:newegg.com page.url:auth
 page.mimeType:"application/pdf" AND page.url:attachments
 page.mimeType:"application/pdf" AND page.url:private
+page.mimeType:"application/pdf" AND page.url:confidential
+page.mimeType:"application/pdf" AND page.url:internal
+page.mimeType:"application/pdf" AND page.url:uploads
 ```
 
 ---
