@@ -67,4 +67,6 @@ IDOR
 - now go to attacker@test.com inbox click the verification link verify acc with that.
 - check if yr acc email is changed to victim@test.com 
 
-## Password reset confusi
+## Password reset confusion
+- log in to a site with attacker@test.com email initiat a password reset. get link in yr inbox.
+- change email to 
