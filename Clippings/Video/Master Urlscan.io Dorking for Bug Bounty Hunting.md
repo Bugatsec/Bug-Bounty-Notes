@@ -38,6 +38,7 @@ page.domain:(newegg.com~ AND NOT newegg.com)
 ```
 page.domain:(/newe.*/ AND NOT newegg.com)
 ```
+- Looks for every domain that starts with given expression of domain but does not include the domain given
 
 
 ---
