@@ -47,4 +47,5 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 
 ## Improper cache control after logout
 --
-- 
+- Go to a sensative page -> logout 
+- click the back btn if you see the sensative data its an issue (p4 bugcrowd vrt)
