@@ -1,18 +1,20 @@
 ---
-title: "Master Urlscan.io Dorking for Bug Bounty Hunting"
-Type: "Video"
+title: Master Urlscan.io Dorking for Bug Bounty Hunting
+Type: Video
 published: 2026-07-23
-Source: "https://www.youtube.com/watch?v=I-J5Ht9goyc"
+Source: https://www.youtube.com/watch?v=I-J5Ht9goyc
 Creator: "[[𝙇𝙤𝙨𝙩𝙨𝙚𝙘]]"
 date: 2026-07-26
 tags:
-  - "Clippings"
-  - "Video"
+  - Clippings
+  - Video
+  - Recon/Dorks
 Finished: false
-Cover: "https://i.ytimg.com/vi/I-J5Ht9goyc/maxresdefault.jpg"
-Site: "YouTube"
+Cover: https://i.ytimg.com/vi/I-J5Ht9goyc/maxresdefault.jpg
+Site: YouTube
 ---
 ## Highlights
+
 
 
 ---
