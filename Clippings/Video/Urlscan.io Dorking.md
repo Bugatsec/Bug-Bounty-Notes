@@ -124,7 +124,12 @@ page.url:\/etc\/passwd
 page.url:\/etc\/shadow
 page.url:shell
 page.url:callback
-page.domain:newegg.com page.url;
+page.domain:newegg.com page.url:stage
+page.domain:newegg.com page.url:prod
+page.domain:newegg.com page.url:dev
+page.domain:newegg.com page.url:test
+page.domain:newegg.com page.url:prod-
+page.domain:newegg.com page.url:prod
 ```
 
 ---
