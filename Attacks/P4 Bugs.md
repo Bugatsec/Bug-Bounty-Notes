@@ -62,4 +62,5 @@ IDOR
 - login with oauth if 2fa is missed it might be a vuln 
 
 ## Email Verification confusion
-- a site asks for email veri
+- a site asks for email verification you give a email recive the verification email
+- going to settings page is allowed you go and change email now that other email will recive the email verificationema
