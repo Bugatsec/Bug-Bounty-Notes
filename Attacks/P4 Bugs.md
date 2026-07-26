@@ -54,3 +54,8 @@ https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 --
 
 ## Email/Password change without any auth/verification
+--
+
+## 2fa bypass
+--
+- enable 2fa 
