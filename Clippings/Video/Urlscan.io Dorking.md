@@ -102,7 +102,8 @@ page.url:"/graphql/"
 page.url:"/graphql/" page.domain:newegg.com
 page.domain:newegg.com AND page.ip:*
 page.title:"Swagger UI" OR page.url:"swagger" OR page.url:"swagger-ui" AND page.domain:newegg.com
-page.url:
+page.url:"/wp-content/uploads/" page.url:"xmlrpc.php"
+page.url:"xmlrpc.php"
 ```
 
 ---
