@@ -51,7 +51,7 @@ page.asn:AS24940 OR page.asnname:newegg
 ```
 page.url:"wp-content/uploads/" OR filename:"wp-content/uploads/"
 ```
-- Looks for site that include path provided
+- Looks for site that include the path provided
 
 ---
 ## Full Page Content
