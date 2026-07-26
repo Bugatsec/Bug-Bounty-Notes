@@ -112,6 +112,10 @@ page.url:phpinfo.php page.domain:gov
 page.url:headdump AND page.url:actuator
 nasa.* page.url:php
 nasa.* page.url:asp
+domain:vulnweb.com page.url:search=
+domain:vulnweb.com page.url:q=
+domain:vulnweb.com page.url:id=
+domain:vulnweb.com page.url:s=
 ```
 
 ---
