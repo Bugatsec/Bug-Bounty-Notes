@@ -82,7 +82,7 @@ page.title:"index of /"
 page.title:"index of /" AND page.url:backup
 page.title:"index of /" AND page.url:uploads
 page.title:"index of /" AND page.url:private
-page.domain:newegg.com AND page.mimeType:"application/
+page.domain:newegg.com AND page.mimeType:"application/json"
 ```
 
 ---
