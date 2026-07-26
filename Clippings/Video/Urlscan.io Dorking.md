@@ -66,7 +66,7 @@ newegg.* -newegg.ca
 ```
 page.domain:*.newegg.com AND (page.asnname:"Hetzner" OR page.asnname:"DigitalOcean")
 ```
-- Looks for assest's hosted on a 
+- Looks for assest's hosted under a asn (e.g: can exclude cloudflare to find out site before cloudflares)
 
 ---
 ## Full Page Content
