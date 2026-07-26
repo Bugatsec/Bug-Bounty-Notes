@@ -21,9 +21,13 @@ page.ip:* AND date:>now-7d
 
 ```
 page.url.keyword:https\:\/\/www.paypal.com\/*
-page.url.keyword:https\:\/\/www.paypal.com\/uploads*
+page.url.keyword:https\:\/\/www.paypal.com\/uploads\/*
 ```
 - Looks for everything after that url
+
+```
+domain:paypal.com AND NOT page.domain:newegg.com
+```
 
 
 
