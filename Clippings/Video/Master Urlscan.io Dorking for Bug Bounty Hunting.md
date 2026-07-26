@@ -15,7 +15,7 @@ Site: YouTube
 ---
 ## Highlights
 ```
-page.ip:* AND date 
+page.ip:* AND date:>now-7d
 ```
 
 
