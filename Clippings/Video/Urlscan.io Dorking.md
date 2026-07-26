@@ -109,6 +109,7 @@ page.title:"phpMyAdmin" OR page.title:"Adminer" OR page.title:"Mongo Express"
 page.url:"s3.amazonaws.com" OR page.url:"blob.core.windows.net" OR page.url:"storage.googleapis.com"
 filename:phpinfo.php page.domain:gov
 page.url:phpinfo.php page.domain:gov
+page.url:headdump AND page.url:actuator
 ```
 
 ---
