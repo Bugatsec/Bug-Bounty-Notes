@@ -97,7 +97,8 @@ page.title:"index of /" AND page.domain:*.mil
 page.title:"index of /" AND page.domain:*.edu
 page.url:"/api/"
 page.url:"v1/api/" OR "v2/api/" OR "v3/api/" OR "v4/api/"
-page.url:"/api/v1/" OR "/api/v1/"
+page.url:"/api/v1/" OR "/api/v2/" OR "/api/v3/" OR "/api/v4/"
+page.url:"/graphql/"
 ```
 
 ---
