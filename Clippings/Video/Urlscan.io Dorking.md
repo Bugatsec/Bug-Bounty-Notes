@@ -106,7 +106,8 @@ page.url:"/wp-content/uploads/" page.url:"xmlrpc.php"
 page.url:"xmlrpc.php"
 page.title:"Grafana" OR page.title:"Kibana" OR page.title:"Prometheus"
 page.title:"phpMyAdmin" OR page.title:"Adminer" OR page.title:"Mongo Express"
-page.url:"s3.amazonaws.com" OR page.url:"blob.core.windows.net" OR page.url:
+page.url:"s3.amazonaws.com" OR page.url:"blob.core.windows.net" OR page.url:"storage.googleapis.com"
+filename
 ```
 
 ---
