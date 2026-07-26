@@ -140,6 +140,8 @@ page.mimeType:"application/zip" AND page.url:uploads AND newegg.*
 page.mimeType:"application/zip" AND page.url:uploads AND gov.*
 page.mimeType:"application/zip" AND gov.*
 page.title:"IIS Windows Server"
+page.url:"https://sites.google.com/a/*"
+page.url:"https://sites.google.com/a/newegg.com"
 ```
 
 ---
