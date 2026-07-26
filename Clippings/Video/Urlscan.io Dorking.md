@@ -87,7 +87,7 @@ page.domain:newegg.com AND page.mimeType:"application/pdf"
 page.domain:newegg.com AND page.status:500
 page.domain:newegg.com AND page.status:403
 page.domain:newegg.com AND page.status:301
-page.title:"Control Panal" page.title:"Administrator" page.title
+page.title:"Control Panal" OR page.title:"Administrator" page.title:"Sign In"
 ```
 
 ---
