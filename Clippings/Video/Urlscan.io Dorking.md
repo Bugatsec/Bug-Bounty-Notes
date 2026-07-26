@@ -17,7 +17,7 @@ Site: YouTube
 ```
 page.ip:* AND date:>now-7d
 page.ip:49.12.22.106 AND date:[2018 TO 2026]
-page.ip:(148.251.0.0\/16 AND NOT 148.251.45.170) AND date: [2018 TO 2019]
+page.ip:(148.251.0.0\/16 AND NOT 148.251.45.170) AND date:[2018 TO 2019]
 ```
 - Look for every hit in last given number of days
 
