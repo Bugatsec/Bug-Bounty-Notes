@@ -48,6 +48,11 @@ page.asn:AS24940 OR page.asnname:newegg
 ```
 - Looks for sites hosted under a ASN provided or by the company name too
 
+```
+page.url:"wp-content/uploads/" OR filename:"wp-content/uploads/"
+```
+- Looks for site that include path provided
+
 ---
 ## Full Page Content
 
