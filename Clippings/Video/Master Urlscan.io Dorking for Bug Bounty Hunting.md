@@ -36,7 +36,7 @@ page.domain:(newegg.com~ AND NOT newegg.com)
 - Looks for domain that are similar to the domain provided but not the same
 
 ```
-page.domain:(/neweg)
+page.domain:(/newe.*/ AND NOT newegg.com)
 ```
 
 
