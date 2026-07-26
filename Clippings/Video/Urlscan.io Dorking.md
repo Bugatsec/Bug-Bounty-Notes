@@ -105,7 +105,8 @@ page.title:"Swagger UI" OR page.url:"swagger" OR page.url:"swagger-ui" AND page.
 page.url:"/wp-content/uploads/" page.url:"xmlrpc.php"
 page.url:"xmlrpc.php"
 page.title:"Grafana" OR page.title:"Kibana" OR page.title:"Prometheus"
-page.title:"" OR page.title:"Kibana" OR page.title:"Prometheus"
+page.title:"phpMyAdmin" OR page.title:"Adminer" OR page.title:"Mongo Express"
+page.title:"phpMyAdmin" OR page.title:"Adminer" OR page.title:"Mongo Express"
 ```
 
 ---
