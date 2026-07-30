@@ -1,1 +1,1 @@
-[Hackbot](Hackbot.md)
+hackbot
