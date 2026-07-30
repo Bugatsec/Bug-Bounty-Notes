@@ -1,1 +1,1 @@
-Bot Research: ../Bug-Bounty-Private/Hackbot/Hackbot
+Bot Research: ../Bug-Bounty-Private/Hackbot/Skills
