@@ -72,3 +72,5 @@ IDOR
 - change email to attacker2@test.com
 - go to attacker@test.com inbox 
 - use the password reset link
+
+## Reset/change password does not validate or ask current password
