@@ -28,3 +28,6 @@ For JS that is already downloaded:
 
 trufflehog filesystem .
 
+nuclei \
+  -file . \
+  -t ~/nuclei-templates/file/js/js-analyse.yaml
