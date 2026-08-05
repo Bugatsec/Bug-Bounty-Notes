@@ -25,3 +25,6 @@ tool:- secretfinder
 
 ---
 For JS that is already downloaded:
+
+trufflehog filesystem .
+
