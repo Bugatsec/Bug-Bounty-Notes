@@ -22,3 +22,6 @@ cat /root/hilton/aliveJS.txt | xargs -I{} bash -c 'echo -e "\ntarget : {}\n" && 
 
 https://youtu.be/iQctQx7PHos?si=Fgwon5sMzO7eOXeb
 tool:- secretfinder
+
+---
+For JS that is already downloaded:
