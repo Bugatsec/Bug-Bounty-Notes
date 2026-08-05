@@ -20,7 +20,7 @@ cat aliveJS.txt | nuclei -t /root/Lost-nuclei/credentials-disclosure-all.yaml -c
 
 cat /root/hilton/aliveJS.txt | xargs -I{} bash -c 'echo -e "\ntarget : {}\n" && python3 lazyegg.py "{}" --js_urls --domains --ips --leaked_creds --local_storage'
 
-cat test .txt | while read url; do python3 SecretFinder/SecretFinder.py -i $url -o cli secret .txt; done
+cat test .txt | while read url; do python3 SecretFinder/SecretFinder.py -i $url -o cli >> secret.txt; done
 
 https://youtu.be/iQctQx7PHos?si=Fgwon5sMzO7eOXeb
 tool:- secretfinder
