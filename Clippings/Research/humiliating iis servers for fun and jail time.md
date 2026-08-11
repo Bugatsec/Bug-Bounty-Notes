@@ -1,15 +1,16 @@
 ---
-title: "humiliating iis servers for fun and jail time"
-Type: "Research"
-Source: "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time"
+title: humiliating iis servers for fun and jail time
+Type: Research
+Source: https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time
 date: 2026-08-11
 tags:
-  - "Clippings"
-  - "Research"
-  - "iis"
+  - Clippings
+  - Research
+  - iis
+  - "#tool/shortscan"
 Finished: false
 Cover:
-Site: "miguel llamazares"
+Site: miguel llamazares
 ---
 ## Highlights
 
