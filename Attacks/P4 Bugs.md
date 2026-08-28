@@ -74,3 +74,5 @@ IDOR
 - use the password reset link
 
 ## Reset/change password does not validate or ask current password
+
+## email rate limit bypass by adding number i
