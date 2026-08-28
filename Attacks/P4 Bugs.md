@@ -75,4 +75,5 @@ IDOR
 
 ## Reset/change password does not validate or ask current password
 
-## email rate limit bypass by adding number i
+## email rate limit bypass by adding number in in email via +1 
+eg. victim+1@domain.co 
