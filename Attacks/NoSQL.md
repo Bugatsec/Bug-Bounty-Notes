@@ -10,7 +10,7 @@ $
 ;
 %00
 ```
-- in
+- inject these syntex breaking characters
 
 ```
 POST /customer_zone/sign_in HTTP/2.0
