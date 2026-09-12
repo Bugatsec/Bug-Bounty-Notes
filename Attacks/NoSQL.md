@@ -1,3 +1,17 @@
+## How to find?
+
+```
+$
+{
+}
+\
+"
+`
+;
+%00
+```
+- in
+
 ```
 POST /customer_zone/sign_in HTTP/2.0
 Host: example.com
@@ -11,3 +25,5 @@ User-Agent: ...
 }
 
 ```
+
+
