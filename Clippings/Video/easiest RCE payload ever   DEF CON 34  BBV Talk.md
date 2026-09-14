@@ -16,7 +16,7 @@ Site: "YouTube"
 
 `ms-calculator://` -> Opens Calculator
 `search-ms://` -> Opens Windows Explorer
-
+`ms-cxh-full://`
 
 ---
 ## Full Page Content
