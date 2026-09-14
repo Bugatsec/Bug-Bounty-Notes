@@ -14,8 +14,9 @@ Site: "YouTube"
 ---
 ## Highlights
 
-`ms-calculator://` -> opens calculator
-``
+`ms-calculator://` -> Opens Calculator
+`search-ms://` -> Opens Windows Explorer
+
 
 ---
 ## Full Page Content
